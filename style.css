@@ -1,13 +1,23 @@
-/* - Very Dark Grayish Blue: hsl(217, 19%, 35%)
-- Desaturated Dark Blue: hsl(214, 17%, 51%)
-- Grayish Blue: hsl(212, 23%, 69%)
-- Light Grayish Blue: hsl(210, 46%, 95%)
 
-### Body Copy
+:root{
+  --ff-sans: 'Manrope', sans-serif;
 
-- Font size: 13px
+  --fw-regular: 400;
+  --fw-bold: 700;
 
-### Headings
+  --fs-300: 0.5rem;
+  --fs-400: 0.8rem;
+  --fs-500: 1.2rem;
+  --fs-800: 3.5rem;
 
-- Family: [Manrope](https://fonts.google.com/specimen/Manrope)
-- Weights: 500, 700 */
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
