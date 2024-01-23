@@ -21,3 +21,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--light-grayish-blue);
+
+}
+
+.container-article {
+  width: 600px;
+  height: 200px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+}
+
+
+
+.article-img {
+  flex: 1;
+
+}
+
+/* .article-img img {
+  width: 100%;
+  height: auto;
+} */
+
+.c-info {
+  flex: 1;
+  padding: 20px; /* Add padding or adjust as needed */
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+}
