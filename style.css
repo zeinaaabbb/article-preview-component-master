@@ -60,3 +60,12 @@ body {
   width: 20px;
   height: 20px;
 }
+
+.button-opened {
+  background-color: var(--dark-blue);
+  width: 200px;
+  border-radius: 5px;
+  padding-left: 60px;
+  display: inline-block;
+
+}
